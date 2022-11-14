@@ -1,0 +1,8 @@
+.viewAllBtn{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 14px;
+    cursor: pointer;
+}

@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    padding: 13px;
+    -webkit-box-shadow: 2px 3px 5px rgb(0 0 0 / 10%);
+    box-shadow: 2px 3px 5px rgb(0 0 0 / 10%);
+}
+
+.content{
+  margin-left: 120px;
+}
+.btn{
+    margin-left: auto;
+    display: inline-block;
+    background: red;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px){
+    .container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .content,.btn{
+        margin-left: 0;
+    }
+}
